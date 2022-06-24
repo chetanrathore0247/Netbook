@@ -1,0 +1,417 @@
+body a {
+  text-decoration: none;
+}
+
+/*Header*/
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border-style: none;
+}
+
+.header-and-banner {
+  background: linear-gradient(311.76deg, #d4e7fe -15.24%, #ffffff 78.85%);
+}
+
+.navbar form input {
+  border-style: none;
+  background: transparent;
+  width: 120px;
+  outline: none;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+
+.navbar form div {
+  border-bottom: 2px solid #d4e7fe;
+}
+
+.navbar form ::-webkit-input-placeholder {
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar .log-in-btn {
+  background: #217bf4;
+  color: white;
+  border-radius: 16px;
+  border-style: none;
+}
+
+/*Banner*/
+#top-banner a {
+  background: #d4e7fe;
+  max-width: fit-content;
+  border-radius: 16px;
+}
+
+#top-banner h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0a093d;
+}
+
+#top-banner p {
+  color: #656464;
+  font-size: 1.3rem;
+}
+
+#top-banner .btn-first {
+  background: #217bf4;
+  color: white;
+  border-radius: 16px;
+  border-style: none;
+  max-width: fit-content;
+}
+
+#top-banner .btn-second {
+  background: transparent;
+  color: #217bf4;
+  border-radius: 16px;
+  border: 1px solid #217bf4;
+  max-width: fit-content;
+}
+
+@media only screen and (max-width: 450px) {
+  #top-banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+/*What netbooks*/
+
+#what-netbooks a {
+  color: #217bf4;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#what-netbooks h2 {
+  color: #0a093d;
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+#what-netbooks p {
+  color: #656464;
+}
+
+#what-netbooks li {
+  color: #171648;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*Achievement*/
+
+#achievement .fa-star {
+  color: #217bf4;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+#achievement .fa-trophy {
+  color: #217bf4;
+  font-size: 1.6rem;
+}
+
+#achievement span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#achievement h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #656464;
+}
+
+#achievement p {
+  color: #656464;
+}
+
+#achievement .our-community a {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+#achievement .our-community h2 {
+  color: #0a093d;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#achievement .our-community button {
+  max-width: fit-content;
+  background: #217bf4;
+  border-radius: 16px;
+  color: white;
+}
+
+/*Our-Community*/
+#our-community a {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#our-community h1 {
+  color: #0a093d;
+  font-weight: 700;
+}
+
+#our-community p {
+  color: #656464;
+}
+
+#our-community h3 {
+  color: #0a093d;
+}
+.our-community .testimonials {
+  box-shadow: 0px 17px 20px #00000029;
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 522px;
+}
+
+.our-community .testimonial {
+  display: flex;
+  gap: 2rem;
+}
+
+.our-community .testimonials img {
+  height: 86px;
+  width: 86px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .our-community .testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .our-community .testimonials {
+    max-width: 300px;
+    padding-left: 0;
+  }
+}
+
+/*Valueable team*/
+
+#valueable-team a {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#valueable-team h1 {
+  color: #0a093d;
+  font-weight: 600;
+}
+
+#valueable-team p {
+  color: #656464;
+}
+
+#valueable-team .link {
+  background: #d4e7fe;
+  padding: 1.5rem 3rem;
+  border-radius: 16px;
+  font-size: 1.2rem;
+}
+#valueable-team .link a {
+  color: #2f2c4a;
+  font-size: 1.2rem;
+}
+
+#valueable-team .link button {
+  background: #217bf4;
+  padding: 1rem 3rem;
+  border-radius: 16px;
+  border-style: none;
+  color: white;
+}
+
+#valueable-team .team-member {
+  box-shadow: 0px 17px 20px #00000029;
+  padding: 1rem 2rem;
+  border-radius: 16px;
+}
+
+#valueable-team .team-members {
+  border: 2px solid rgba(243, 243, 243, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+}
+
+#valueable-team img {
+  height: 145px;
+  width: 145px;
+}
+
+#get-our-application button img {
+  height: 40px;
+  width: 40px;
+}
+
+#get-our-application img {
+  width: 500px;
+  height: 970px;
+}
+
+/*Get our Application*/
+
+#get-our-application {
+  background: #e5f0fd;
+}
+
+#get-our-application a {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#get-our-application h1 {
+  color: #0a093d;
+  font-weight: 700;
+}
+
+#get-our-application p {
+  color: #656464;
+}
+
+#get-our-application .btn-first {
+  background: white;
+  border-style: none;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+}
+
+#get-our-application .btn-second {
+  background: #2f2c4a;
+  border-style: none;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+/*Latest News*/
+
+#latest-news a {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+#latest-news h2 {
+  color: #0a093d;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+#latest-news img {
+  border-radius: 14px;
+}
+
+#latest-news h4 {
+  color: #0a093d;
+}
+
+#latest-news h4 ::before {
+  content: "";
+  background-color: #ffaf2e;
+  width: 40px;
+  height: 2px;
+  display: block;
+  margin-top: 10px;
+  color: #ffaf2e;
+}
+
+#latest-news button {
+  background: none;
+  border-style: none;
+  color: #656464;
+}
+
+/*Footer*/
+
+#footer {
+  background: #2b2b39;
+  padding: 4rem 0;
+  color: white;
+}
+
+#footer h3 {
+  font-size: 1.5rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer input {
+  background: transparent;
+  color: white;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid white;
+}
+
+#footer input ::-webkit-input-placeholder {
+  outline: none;
+  border-style: none;
+  box-shadow: none;
+}
+
+#footer .search {
+  position: relative;
+}
+
+#footer button {
+  background: white;
+  border-style: none;
+  color: #0a093d;
+  padding: 1rem 2rem;
+  max-width: fit-content;
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (max-width: 334px) {
+  #footer .search {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    position: static;
+  }
+
+  #footer input {
+    max-width: 15rem;
+  }
+
+  #footer button {
+    position: static;
+  }
+}
+
+/*Foot-navs*/
+
+#foot-nav {
+  background: #20202d;
+
+  font-size: 1.2rem;
+}
+
+#foot-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#foot-nav .social-media {
+  background: white;
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem;
+}
